@@ -32,4 +32,14 @@ nav {
     justify-content: center;
 }
 
-/* Aggiungi altri stili CSS come necessario */
+footer {
+    background-color: #333; /* Colore di sfondo grigio */
+    color: white; /* Colore del testo bianco */
+    text-align: center; /* Allineamento del testo al centro */
+    padding: 20px 0; /* Spaziatura interna al footer */
+    position: fixed; /* Posizione fissa */
+    bottom: 0; /* Fisso in fondo alla pagina */
+    width: 100%; /* Larghezza pari alla larghezza della pagina */
+    font-weight: bold; /* Testo in grassetto */
+}
+

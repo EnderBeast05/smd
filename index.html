@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranghi SMD Metropolis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="smd.jpg" alt="Logo SMD">
+            <h1>Grado SMD Metropolis</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="search-container">
+            <input type="text" id="search" placeholder="Cerca...">
+            <select id="search-results" class="search-results"></select>
+        </div>
+    </nav>
+    <div id="selected-person" class="selected-person">
+        <h2>Nome:</h2>
+        <p id="person-name"></p>
+        <h2>Grado:</h2>
+        <p id="person-rank"></p>
+        <h2>Gruppo:</h2>
+        <p id="person-group"></p>
+    </div>
+    <div id="filter-container" class="filter-container">
+        <h2>Filtra per Gruppo:</h2>
+        <label><input type="checkbox" class="filter-checkbox" value="Esercito" checked> Esercito</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Carabinieri" checked> Carabinieri</label>
+        <label><input type="checkbox" class="filter-checkbox" value="Finanza" checked> Finanza</label>
+        <label><input type="checkbox" class="filter-checkbox" value="SMD" checked> SMD</label>
+        <label><input type="checkbox" class="filter-checkbox" value="SME" checked> SME</label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
